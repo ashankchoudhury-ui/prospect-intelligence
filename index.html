@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prospect Intelligence — find local businesses that need a website</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#000; --fg:#f5f5f5; --line:#2a2a2a; --dim:#9a9a9a; }
+  * { box-sizing: border-box; margin: 0; }
+  body { background:var(--bg); color:var(--fg); font-family:'Inter',system-ui,sans-serif;
+         line-height:1.5; -webkit-font-smoothing:antialiased; }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 24px 96px; }
+  .kicker { color:var(--dim); font-size:13px; letter-spacing:.12em; text-transform:uppercase; }
+  h1 { font-size: clamp(30px,6vw,52px); line-height:1.05; font-weight:600; margin:16px 0 20px; letter-spacing:-.02em; }
+  h2 { font-size: 20px; font-weight:600; margin: 44px 0 14px; letter-spacing:-.01em; }
+  p { color:#cfcfcf; margin: 12px 0; }
+  .rule { height:2px; background:var(--line); margin: 36px 0; border:0; }
+  .card { border:2px solid var(--line); padding:18px 20px; margin:14px 0; }
+  .card .name { font-weight:600; }
+  .card .score { color:var(--dim); font-size:13px; }
+  .card ul { margin:8px 0 0 18px; color:#cfcfcf; font-size:14px; }
+  .price { font-size: clamp(24px,5vw,38px); font-weight:600; margin: 8px 0 4px; }
+  .muted { color:var(--dim); font-size:14px; }
+  .cta { display:inline-block; border:2px solid var(--fg); padding:14px 22px; margin-top:18px;
+         color:var(--fg); text-decoration:none; font-weight:600; }
+  .cta:hover { background:var(--fg); color:var(--bg); }
+  code { border:2px solid var(--line); padding:2px 8px; font-size:14px; }
+  footer { margin-top:56px; padding-top:24px; border-top:2px solid var(--line);
+           color:var(--dim); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">Prospect Intelligence · Guwahati, India</div>
+  <h1>Find local businesses that need a website — already scored for you.</h1>
+  <p>A reusable system that discovers businesses in your city, audits their live website,
+     scores each one by opportunity, and exports a ready-to-pitch list.</p>
+
+  <hr class="rule">
+
+  <h2>Real output from a live run</h2>
+  <p class="muted">Dental clinics, Austin TX — pulled and audited automatically.</p>
+
+  <div class="card">
+    <div class="name">Austin Dental</div>
+    <div class="score">Opportunity score 85 · WordPress 7.1.5 · mobile 36/100</div>
+    <ul>
+      <li>Page loads in 17.3 seconds; LCP 17,330 ms</li>
+      <li>908 KB of HTML, 30 scripts, 27 render-blocking stylesheets</li>
+      <li>No online booking system</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="name">Dentist in Austin</div>
+    <div class="score">Opportunity score 50 · mobile 44/100</div>
+    <ul>
+      <li>LCP 6,087 ms</li>
+      <li>8 render-blocking stylesheets, no live chat</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="name">Emergency Dentist Austin</div>
+    <div class="score">No website at all — highest-intent lead</div>
+  </div>
+
+  <p class="muted">Every row links to its source, so your team can verify before pitching.</p>
+
+  <hr class="rule">
+
+  <h2>Configured for your niches</h2>
+  <p>I set the engine up for whatever you sell to — dental, HVAC, restaurants, salons, real estate —
+     in any city you target. You get a repeatable lead engine instead of scrolling Google Maps each week.</p>
+
+  <div class="price">₹4,000 — basic &nbsp;·&nbsp; ₹7,500 — standard</div>
+  <p class="muted">One-time setup. Optional hosting &amp; maintenance at ₹1,500/month.</p>
+
+  <p>Pay by UPI: <code>ashank23@fam</code></p>
+  <p className="muted"></p>
+  <a class="cta" href="mailto:ashankchoudhury@gmail.com?subject=Prospect%20Intelligence%20—%20setup%20enquiry">Book a setup →</a>
+
+  <footer>
+    Built and operated by Ashank Choudhary · Guwahati, Assam ·
+    Evidence-based: every score lists the finding and its source.
+  </footer>
+</main>
+</body>
+</html>
